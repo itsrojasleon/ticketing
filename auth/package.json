@@ -28,7 +28,9 @@
     "express-async-errors": "^3.1.1",
     "express-validator": "^6.5.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.19"
+    "mongoose": "^5.9.19",
+    "ts-node-dev": "^1.0.0-pre.49",
+    "typescript": "^3.9.5"
   },
   "devDependencies": {
     "@types/jest": "^25.2.3",
@@ -36,9 +38,7 @@
     "jest": "^26.0.1",
     "mongodb-memory-server": "^6.6.1",
     "supertest": "^4.0.2",
-    "ts-jest": "^25.5.1",
-    "ts-node-dev": "^1.0.0-pre.49",
-    "typescript": "^3.9.5"
+    "ts-jest": "^25.5.1"
   },
   "description": ""
 }
