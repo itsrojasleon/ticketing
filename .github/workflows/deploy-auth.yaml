@@ -3,13 +3,13 @@ name: deploy-auth
 on:
   push:
     branches:
-      - master:
+      - master
     paths:
       - 'auth/**'
 
 jobs:
   build:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: cd auth && docker build -t rojasleon/auth .
